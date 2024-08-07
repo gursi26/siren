@@ -1,9 +1,4 @@
 # paper-implementation-template
-A PyTorch implementation of "{}" by {}
+A PyTorch implementation of "Implicit Neural Representations with Periodic Activation Functions" by Sitzmann et al.
 
-[Paper]() </br>
-[Dataset]()
-
-Sample outputs after brief training:
-```
-```
+[Paper](https://arxiv.org/abs/2006.09661) </br>
