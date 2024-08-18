@@ -10,7 +10,7 @@ class SinActivation(nn.Module):
     def forward(self, x):
         return torch.sin(self.omega * x)
 
-class SIREN(nn.Module):
+class SirenImage(nn.Module):
     def __init__(
         self, 
         n_layers,
@@ -19,7 +19,7 @@ class SIREN(nn.Module):
         out_ft = 3,
         omega = 30
     ):
-        super(SIREN, self).__init__()
+        super(SirenImage, self).__init__()
         self.omega = omega
         self.layers = nn.ModuleList()
         for i in range(n_layers):
